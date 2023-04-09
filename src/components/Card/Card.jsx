@@ -12,7 +12,7 @@ export default function Card({ category_name }) {
   };
 
   return (
-    <div className={`task`} onClick={goToSingleQuiz}>
+    <div className={`quiz`} onClick={goToSingleQuiz}>
       <h4>{category_name}</h4>
 
       <div className="state">

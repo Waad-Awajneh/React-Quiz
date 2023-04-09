@@ -66,7 +66,7 @@ button:disabled {
     border-radius: 10px;
 }
 
-.all-component .all-task {
+.all-component .all-quiz {
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
@@ -78,18 +78,19 @@ button:disabled {
 }
 
 
-.all-component .task {
+.all-component .quiz {
     background-color: var(--card-color);
     padding: 15px;
     border-radius: 10px;
-    height: 200px;
+    height: 150px;
+    width: 200px;
     position: relative;
     overflow: hidden;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.all-component .task h4 {
+.all-component .quiz h4 {
     text-transform: capitalize;
 }
 
@@ -110,13 +111,13 @@ button:disabled {
 
 }
 
-.task:hover .blueBar::before {
+.quiz:hover .blueBar::before {
     height: 15px;
 
 
 }
 
-.task:hover h4 {
+.quiz:hover h4 {
 
     color: var(--font-hover-color);
 
@@ -230,7 +231,7 @@ button:disabled {
 
 @media (max-width:767px) {
 
-    .all-component .all-task .task {
+    .all-component .all-quiz .quiz {
         width: 300px;
     }
 

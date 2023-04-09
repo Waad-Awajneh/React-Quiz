@@ -21,7 +21,7 @@ export default function Home() {
             Welcome to <span className="color">Estarta Quizzes Organizer</span>
             <br /> We are thrilled to have you on Estarta Quizzer, Enjoy.
           </p>
-          <div className="all-task">
+          <div className="all-quiz">
             {Array.from(category_name)?.map((category_name) => (
               <Card category_name={category_name} key={category_name} />
             ))}
