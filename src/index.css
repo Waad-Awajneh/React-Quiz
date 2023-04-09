@@ -156,13 +156,13 @@
     }
 
     /* pagination edit */
-    .css-zjf1nq-MuiPaper-root {
+    /* .css-zjf1nq-MuiPaper-root {
       background-color: var(--background-color) !important;
     }
 
     .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
       background-color: var(--background-color) !important;
-    }
+    } */
 
     /* 
     .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button {
@@ -181,10 +181,10 @@
 
       cursor: not-allowed !important;
     } */
-
+    /* 
     .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
       color: var(--font-color) !important
-    }
+    } */
 
     .css-1jabshk {
       height: auto !important;

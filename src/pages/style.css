@@ -209,7 +209,15 @@ button:disabled {
     cursor: not-allowed !important;
 }
 
+.headingBox {
+    background-color: var(--background-color) !important;
+}
 
+.StepperBox {
+    background-color: var(--background-color) !important;
+
+    color: var(--font-color) !important
+}
 
 
 
@@ -226,6 +234,7 @@ button:disabled {
 
     .MuiBox-root {
         margin: 20px auto;
+        padding: 5px;
     }
 
 

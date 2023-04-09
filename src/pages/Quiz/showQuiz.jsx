@@ -49,6 +49,7 @@ export default function ShowQuiz() {
     <div className="all-component">
       <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
         <Paper
+          className="headingBox"
           square
           elevation={0}
           sx={{
@@ -71,6 +72,7 @@ export default function ShowQuiz() {
           />
         </Box>
         <MobileStepper
+          className="StepperBox"
           variant="text"
           steps={maxSteps}
           position="static"
