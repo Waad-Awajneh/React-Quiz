@@ -199,19 +199,22 @@ button:disabled {
 .btn:disabled {
     border: solid 1px #ccc;
     background-color: #9999994d;
-    color: #545454ad;
+    color: var(--font-color-dis) !important;
     cursor: not-allowed !important;
     pointer-events: all !important
 }
 
-.btn:disabled:hover {
-
+/* .btn:disabled:hover {
     cursor: not-allowed !important;
-}
+    background-color: inherit;
+    color: white;
+
+} */
 
 .headingBox {
     background-color: var(--background-color) !important;
 }
+
 
 .StepperBox {
     background-color: var(--background-color) !important;

@@ -93,7 +93,7 @@
       --card-color: #9FA8DA;
       --button-color: #647bff;
       --navfont: #E2DBD4;
-
+      --font-color-dis: #02020257;
       --font-hover-color: #fff
     }
 
@@ -110,7 +110,8 @@
       --button-color: #647bff;
       --navfont: #FFF;
 
-      --font-hover-color: #7a89e3
+      --font-hover-color: #7a89e3;
+      --font-color-dis: #ffffff57;
     }
 
 
