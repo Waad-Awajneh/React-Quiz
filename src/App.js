@@ -1,13 +1,16 @@
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { Route, Routes } from "react-router-dom";
-
+//components
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/header";
+//pages
 import Home from "./pages/Home/home";
 import ShowQuiz from "./pages/Quiz/showQuiz";
 import ShowResult from "./pages/Result/ShowResult";
+//redux
 import { getAllQuestions } from "./redux/reducers/QuizReducer/action";
+import { useDispatch, useSelector } from "react-redux";
+import Loading from "./components/Loading/Loading";
 
 function App() {
   const { toggleValue } = useSelector((state) => state.ThemeReducer);
@@ -15,13 +18,13 @@ function App() {
   const { allQuestions, error, loading } = useSelector(
     (state) => state.QuizReducer
   );
-  // console.log(allQuestions?.length);
+
   useEffect(() => {
     if (allQuestions?.length === 0) dispatch(getAllQuestions());
   }, []);
 
   if (error) return "error ";
-  if (loading) return "LOading... ";
+  if (loading) return <Loading />;
 
   return (
     <div className={toggleValue ? "dark" : "light"}>

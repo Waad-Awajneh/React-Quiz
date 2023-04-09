@@ -1,11 +1,15 @@
-import React from "react";
-import "./style.css";
-import moonIcon from "./../../assest/Images/moon.png";
-import sunIcon from "./../../assest/Images/sun.png";
+//react-router-dom
+import { Link, NavLink } from "react-router-dom";
+//redux
 import { useDispatch, useSelector } from "react-redux";
 import { setToggleValue } from "../../redux/reducers/ThemeReducer/action";
-import { Link, NavLink } from "react-router-dom";
 import { setReview } from "../../redux/reducers/QuizReducer/action";
+//style
+import "./style.css";
+//image
+import moonIcon from "./../../assest/Images/moon.png";
+import sunIcon from "./../../assest/Images/sun.png";
+
 export default function Header() {
   const dispatch = useDispatch();
   const { toggleValue } = useSelector((state) => state.ThemeReducer);

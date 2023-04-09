@@ -1,21 +1,25 @@
-import React, { useEffect, useRef } from "react";
-import { useState } from "react";
+import { useEffect, useRef } from "react";
+//redux
 import { useDispatch, useSelector } from "react-redux";
 import { setAnswer } from "../../redux/reducers/QuizReducer/action";
+//style
 import "./reviewStyle.css";
+
 export default function Form({ questionInfo, questionIndex, resetForm }) {
   const myRef = useRef();
   const dispatch = useDispatch();
   const { answers, review } = useSelector((state) => state.QuizReducer);
+
+  useEffect(() => {
+    console.log(myRef.current);
+    myRef.current.reset();
+  }, [resetForm]);
+
   function colorChoiceBasedOnQuestionAnswer(choice) {
     if (choice === answers[questionIndex].correctAnswer) return "correct";
     else if (choice === answers[questionIndex].answerValue) return "wrong";
     else return "normalChoice";
   }
-  useEffect(() => {
-    console.log(myRef.current);
-    myRef.current.reset();
-  }, [resetForm]);
 
   return (
     <>

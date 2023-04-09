@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from "react-redux";
-import "../style.css";
+import { useState } from "react";
+//components
 import Form from "./Form";
-import * as React from "react";
+//stepper mui
 import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import MobileStepper from "@mui/material/MobileStepper";
@@ -10,21 +10,26 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
+//redux
+import { useDispatch, useSelector } from "react-redux";
 import {
   restartQuiz,
   showResult,
 } from "../../redux/reducers/QuizReducer/action";
+//react-router-dom
 import { useNavigate } from "react-router-dom";
+//style
+import "../style.css";
 
 export default function ShowQuiz() {
   const theme = useTheme();
-  const [activeStep, setActiveStep] = React.useState(0);
-  const [resetForm, setResetForm] = React.useState(false);
+  const [activeStep, setActiveStep] = useState(0);
+  const [resetForm, setResetForm] = useState(false);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
   const { singleQuiz, answers, review } = useSelector(
     (state) => state.QuizReducer
   );
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
   const maxSteps = singleQuiz.length;
 
   const handleNext = () => {
@@ -35,10 +40,12 @@ export default function ShowQuiz() {
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
+
   const handleSubmit = () => {
     dispatch(showResult());
     navigate("/quizResult");
   };
+
   const handleRestart = () => {
     setActiveStep(0);
     dispatch(restartQuiz());

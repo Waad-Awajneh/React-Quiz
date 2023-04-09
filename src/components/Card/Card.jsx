@@ -1,6 +1,7 @@
-import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+//redux
 import { getSingleQuiz } from "../../redux/reducers/QuizReducer/action";
+import { useDispatch } from "react-redux";
 
 export default function Card({ category_name }) {
   const nav = useNavigate();

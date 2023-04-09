@@ -1,8 +1,10 @@
-import React from "react";
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+//components
 import Card from "../../components/Card/Card";
+//redux
+import { useDispatch, useSelector } from "react-redux";
 import { getAllCategoryName } from "../../redux/reducers/QuizReducer/action";
+//style
 import "../style.css";
 
 export default function Home() {

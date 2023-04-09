@@ -1,4 +1,5 @@
 import * as CONSTANTS from "./constants";
+
 export const getAllQuestions = () => async (dispatch) => {
   dispatch({ type: CONSTANTS.LOADING });
   try {
@@ -40,12 +41,15 @@ export const setAnswer =
 export const showResult = () => (dispatch) => {
   dispatch({ type: CONSTANTS.GET_RESULT });
 };
+
 export const resetQuizAndAnswer = () => (dispatch) => {
   dispatch({ type: CONSTANTS.RESET_QUIZ_AND_ANSWER });
 };
+
 export const setReview = (value) => (dispatch) => {
   dispatch({ type: CONSTANTS.SET_REVIEW, payload: value });
 };
+
 export const restartQuiz = (value) => (dispatch) => {
   dispatch({ type: CONSTANTS.RESTART_QUIZ });
 };
