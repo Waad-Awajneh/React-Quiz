@@ -154,3 +154,51 @@
       color: var(--font-color);
 
     }
+
+    /* pagination edit */
+    .css-zjf1nq-MuiPaper-root {
+      background-color: var(--background-color) !important;
+    }
+
+    .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
+      background-color: var(--background-color) !important;
+    }
+
+    .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button {
+      color: #647bff;
+      border: solid 1px #647bff;
+    }
+
+    .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button:disabled {
+      border: solid 1px #ccc;
+      background-color: #9999994d;
+      color: #545454ad;
+
+    }
+
+    .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button:disabled:hover {
+
+      cursor: not-allowed !important;
+    }
+
+    .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
+      color: var(--font-color) !important
+    }
+
+    .css-1jabshk {
+      height: auto !important;
+    }
+
+    .MuiBox-root {
+      margin: 15px auto;
+
+    }
+
+    .css-1rtnrqa.Mui-disabled {
+      cursor: not-allowed !important;
+    }
+
+    .css-1knaqv7-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+      cursor: not-allowed !important;
+      pointer-events: all !important;
+    }
