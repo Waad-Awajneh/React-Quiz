@@ -205,7 +205,7 @@ button:disabled {
 .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button:disabled {
     border: solid 1px #ccc;
     background-color: #9999994d;
-    color: #ccccccad;
+    color: #9b9b9bad;
 
 }
 
@@ -227,13 +227,13 @@ button:disabled {
 
 }
 
-/* .css-1rtnrqa.Mui-disabled {
+.css-1rtnrqa.Mui-disabled {
     cursor: not-allowed !important;
-} */
+}
 
 .css-1knaqv7-MuiButtonBase-root-MuiButton-root.Mui-disabled {
     cursor: not-allowed !important;
-    pointer-events: all;
+    pointer-events: all !important;
 }
 
 /* ***********************media********************* */

@@ -3,7 +3,7 @@ export const getAllQuestions = () => async (dispatch) => {
   dispatch({ type: CONSTANTS.LOADING });
   try {
     const response = await fetch(
-      "https://json.extendsclass.com/bin/ac3800e6be7e"
+      "https://json.extendsclass.com/bin/f4e885c195fc"
     );
     const data = await response.json();
 
