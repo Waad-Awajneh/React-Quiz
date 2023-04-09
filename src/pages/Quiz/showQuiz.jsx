@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-
+import "../style.css";
 import Form from "./Form";
 import * as React from "react";
 import Box from "@mui/material/Box";
@@ -78,7 +78,7 @@ export default function ShowQuiz() {
           nextButton={
             activeStep === maxSteps - 1 ? (
               review ? (
-                <Button size="small" onClick={handleRestart}>
+                <Button size="small" onClick={handleRestart} className="btn">
                   Start Over
                   {theme.direction === "rtl" ? (
                     <KeyboardArrowLeft />
@@ -91,6 +91,7 @@ export default function ShowQuiz() {
                   size="small"
                   onClick={handleSubmit}
                   disabled={answers[activeStep] === "noAnswer"}
+                  className="btn"
                 >
                   Submit
                   {theme.direction === "rtl" ? (
@@ -105,6 +106,7 @@ export default function ShowQuiz() {
                 size="small"
                 onClick={handleNext}
                 disabled={answers[activeStep] === "noAnswer"}
+                className="btn"
               >
                 Next
                 {theme.direction === "rtl" ? (
@@ -120,6 +122,7 @@ export default function ShowQuiz() {
               size="small"
               onClick={handleBack}
               disabled={activeStep === 0}
+              className="btn"
             >
               {theme.direction === "rtl" ? (
                 <KeyboardArrowRight />

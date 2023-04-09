@@ -164,6 +164,7 @@
       background-color: var(--background-color) !important;
     }
 
+    /* 
     .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button {
       color: #647bff;
       border: solid 1px #647bff;
@@ -179,7 +180,7 @@
     .css-rh92k-MuiPaper-root-MuiMobileStepper-root>button:disabled:hover {
 
       cursor: not-allowed !important;
-    }
+    } */
 
     .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
       color: var(--font-color) !important
@@ -194,11 +195,11 @@
 
     }
 
-    .css-1rtnrqa.Mui-disabled {
+    /* .css-1rtnrqa.Mui-disabled {
       cursor: not-allowed !important;
     }
 
     .css-1knaqv7-MuiButtonBase-root-MuiButton-root.Mui-disabled {
       cursor: not-allowed !important;
       pointer-events: all !important;
-    }
+    } */

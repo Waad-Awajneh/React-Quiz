@@ -188,6 +188,31 @@ button:disabled {
     font-weight: 600;
 }
 
+/* pag */
+
+
+.btn {
+    color: #647bff;
+    border: solid 1px #647bff;
+}
+
+.btn:disabled {
+    border: solid 1px #ccc;
+    background-color: #9999994d;
+    color: #545454ad;
+    cursor: not-allowed !important;
+    pointer-events: all !important
+}
+
+.btn:disabled:hover {
+
+    cursor: not-allowed !important;
+}
+
+
+
+
+
 
 
 /* ***********************media********************* */
