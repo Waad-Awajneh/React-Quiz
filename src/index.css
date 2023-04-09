@@ -1,0 +1,156 @@
+    /* Start Global Rules */
+    * {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace !important;
+    }
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    a {
+      text-decoration: none;
+      color: initial;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+
+    /* Small */
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+
+    /* Medium */
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+    }
+
+    /* Large */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+
+    #icon {
+      position: relative;
+      right: -5px;
+      top: 0;
+      cursor: pointer;
+      width: 40px;
+      transform: scale(0.7);
+    }
+
+    @media (max-width: 767px) {
+      #icon {
+        position: absolute;
+        right: 10px;
+        top: 9px;
+      }
+    }
+
+
+
+    .light {
+
+
+      --background-color: #fff;
+      --nav-color: #C5CAE9;
+      --font-color: #000;
+      --font-color-rev: #000;
+      --card-color: #9FA8DA;
+      --button-color: #647bff;
+      --navfont: #E2DBD4;
+
+      --font-hover-color: #fff
+    }
+
+    .dark {
+
+      --complete-color: #07b007;
+      --nav-color: #515361;
+      --background-color: #000000;
+
+      --card-color: #484a57;
+      --font-color: #fff;
+      --font-color-rev: #000;
+
+      --button-color: #647bff;
+      --navfont: #FFF;
+
+      --font-hover-color: #7a89e3
+    }
+
+
+    body {
+
+      background-color: var(--background-color);
+      color: var(--font-color);
+      font-family: var(--font-family) !important;
+
+    }
+
+    /* *************************************************************************************************** */
+
+    h1 {
+      font-size: 350%;
+      color: var(--font-color);
+    }
+
+    h2 {
+      font-size: 120%;
+      color: var(--font-color);
+
+    }
+
+    h3 {
+      font-size: 120%;
+      color: var(--font-color);
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace !important;
+
+    }
+
+    p {
+      font-size: 100%;
+      color: var(--font-color);
+
+    }
+
+    label {
+      font-size: 100%;
+      color: var(--font-color);
+
+    }

@@ -1,0 +1,9 @@
+.correct>label {
+    color: green
+}
+
+.wrong>label {
+    color: red;
+}
+
+.normalChoice {}

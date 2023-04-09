@@ -1,0 +1,135 @@
+p {
+    margin: 0 !important;
+}
+
+header {
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    background-color: var(--nav-color);
+    opacity: 0.9;
+    color: var(--font-color);
+
+
+}
+
+@media (max-width:767px) {
+    header {
+        height: 100px;
+    }
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--font-color);
+
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 10px;
+    align-self: center;
+}
+
+header .logo h2 {
+    font-size: 18px !important;
+
+}
+
+header .logo h2 a {
+    color: var(--font-color);
+}
+
+
+header .logo span {
+
+    color: #647bff;
+    font-weight: 600;
+}
+
+
+header .nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+header .nav ul li {
+    padding: 10px;
+    margin-right: 10px;
+    color: var(--font-color);
+    position: relative;
+    transition: background-color 0.5s;
+    border-radius: 15px;
+    cursor: default
+}
+
+header .nav ul li:hover {
+    background-color: #647bff;
+}
+
+
+.active {
+    opacity: 1;
+    z-index: 10;
+    top: 57px;
+}
+
+
+@media (max-width:767px) {
+    header .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        height: 100px;
+        font-size: 14px;
+    }
+
+    header .logo {
+        margin-bottom: 5px;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    header .nav ul li {
+        padding: 5px;
+        margin-right: 5px;
+    }
+
+    .active {
+        opacity: 1;
+        z-index: 10;
+        top: 37px;
+        left: -15px;
+        border-bottom: #647bff;
+    }
+}
+
+@media (orientation : landscape) and (max-width: 991px) {
+    header .container {
+        padding: 5px;
+        height: 70px;
+        font-size: 14px;
+    }
+
+    header .logo h2 {
+        font-size: 13px !important;
+    }
+
+    header {
+        height: 60px;
+    }
+}

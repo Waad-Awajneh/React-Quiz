@@ -1,0 +1,554 @@
+{
+    "quiz": [
+        {
+            "question": "What is the smallest unit of life?",
+            "choices": [
+                "Cell",
+                "Tissue",
+                "Organ",
+                "Organism"
+            ],
+            "answer": "Cell",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "Which of the following is NOT a type of RNA?",
+            "choices": [
+                "mRNA",
+                "tRNA",
+                "rRNA",
+                "DNA"
+            ],
+            "answer": "DNA",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "Which organelle is responsible for protein synthesis?",
+            "choices": [
+                "Mitochondria",
+                "Nucleus",
+                "Ribosome",
+                "Lysosome"
+            ],
+            "answer": "Ribosome",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "What is the process by which plants make their own food?",
+            "choices": [
+                "Photosynthesis",
+                "Respiration",
+                "Digestion",
+                "Circulation"
+            ],
+            "answer": "Photosynthesis",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "Which type of muscle is involuntary and found in the walls of internal organs?",
+            "choices": [
+                "Skeletal",
+                "Cardiac",
+                "Smooth",
+                "Striated"
+            ],
+            "answer": "Smooth",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "Which part of the brain is responsible for regulating body temperature and hunger?",
+            "choices": [
+                "Cerebrum",
+                "Cerebellum",
+                "Medulla Oblongata",
+                "Hypothalamus"
+            ],
+            "answer": "Hypothalamus",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "What is the process by which cells divide to form new cells?",
+            "choices": [
+                "Meiosis",
+                "Mitosis",
+                "Fermentation",
+                "Diffusion"
+            ],
+            "answer": "Mitosis",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "Which of the following is NOT a type of blood vessel?",
+            "choices": [
+                "Vein",
+                "Artery",
+                "Capillary",
+                "Bronchus"
+            ],
+            "answer": "Bronchus",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "What is the pigment that gives human skin its color?",
+            "choices": [
+                "Hemoglobin",
+                "Carotene",
+                "Melanin",
+                "Chlorophyll"
+            ],
+            "answer": "Melanin",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "Which of the following is NOT part of the digestive system?",
+            "choices": [
+                "Stomach",
+                "Liver",
+                "Kidney",
+                "Pancreas"
+            ],
+            "answer": "Kidney",
+            "category_name": "biology_questions"
+        },
+        {
+            "question": "What is the result of 4 + 2?",
+            "choices": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": "6",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "Which is the smallest number: 0, 1, or 2?",
+            "choices": [
+                "0",
+                "1",
+                "2",
+                "None of the above"
+            ],
+            "answer": "0",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the result of 5 - 3?",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "2",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the next number in the sequence: 2, 4, 6, 8, ____?",
+            "choices": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "answer": "10",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the result of 3 x 4?",
+            "choices": [
+                "7",
+                "10",
+                "12",
+                "15"
+            ],
+            "answer": "12",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the largest number: 100, 200, or 300?",
+            "choices": [
+                "100",
+                "200",
+                "300",
+                "None of the above"
+            ],
+            "answer": "300",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the result of 10 ÷ 2?",
+            "choices": [
+                "2",
+                "4",
+                "5",
+                "10"
+            ],
+            "answer": "5",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the result of 7 + 3 x 2?",
+            "choices": [
+                "13",
+                "17",
+                "20",
+                "23"
+            ],
+            "answer": "13",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the result of 9 - 5 + 2?",
+            "choices": [
+                "4",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": "6",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the result of 6 ÷ 0?",
+            "choices": [
+                "0",
+                "Undefined",
+                "Infinity",
+                "Error"
+            ],
+            "answer": "Undefined",
+            "category_name": "maths_questions"
+        },
+        {
+            "question": "What is the atomic number of carbon?",
+            "choices": [
+                "6",
+                "8",
+                "10",
+                "12"
+            ],
+            "answer": "6",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "Which element has the symbol Fe?",
+            "choices": [
+                "Fluorine",
+                "Iron",
+                "Helium",
+                "Carbon"
+            ],
+            "answer": "Iron",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the chemical formula for water?",
+            "choices": [
+                "H2O2",
+                "H3O",
+                "CO2",
+                "H2O"
+            ],
+            "answer": "H2O",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "Which of the following is NOT a state of matter?",
+            "choices": [
+                "Solid",
+                "Liquid",
+                "Gas",
+                "Plasma"
+            ],
+            "answer": "Plasma",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the process by which a solid turns directly into a gas?",
+            "choices": [
+                "Condensation",
+                "Sublimation",
+                "Evaporation",
+                "Melting"
+            ],
+            "answer": "Sublimation",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the pH of a neutral solution?",
+            "choices": [
+                "0",
+                "7",
+                "14",
+                "1"
+            ],
+            "answer": "7",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "choices": [
+                "Ag",
+                "Au",
+                "Cu",
+                "Pt"
+            ],
+            "answer": "Au",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "Which gas makes up the majority of Earth's atmosphere?",
+            "choices": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Methane"
+            ],
+            "answer": "Nitrogen",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the common name for sodium chloride?",
+            "choices": [
+                "Table Salt",
+                "Baking Soda",
+                "Vinegar",
+                "Ammonia"
+            ],
+            "answer": "Table Salt",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the chemical formula for methane?",
+            "choices": [
+                "CO2",
+                "H2O",
+                "CH4",
+                "NO2"
+            ],
+            "answer": "CH4",
+            "category_name": "chemistry_questions"
+        },
+        {
+            "question": "What is the opposite of 'happy'?",
+            "choices": [
+                "Sad",
+                "Angry",
+                "Excited",
+                "Nervous"
+            ],
+            "answer": "Sad",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which of the following is a proper noun?",
+            "choices": [
+                "boy",
+                "city",
+                "river",
+                "Paris"
+            ],
+            "answer": "Paris",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which word means the same as 'big'?",
+            "choices": [
+                "Tiny",
+                "Small",
+                "Large",
+                "Little"
+            ],
+            "answer": "Large",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which of the following is a conjunction?",
+            "choices": [
+                "and",
+                "blue",
+                "run",
+                "house"
+            ],
+            "answer": "and",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which sentence is written correctly?",
+            "choices": [
+                "He plays with his ball.",
+                "He play with his ball.",
+                "He played with his ball.",
+                "He play with his balls."
+            ],
+            "answer": "He plays with his ball.",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which of the following is a pronoun?",
+            "choices": [
+                "Run",
+                "She",
+                "Fast",
+                "Big"
+            ],
+            "answer": "She",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which word means the opposite of 'hot'?",
+            "choices": [
+                "Cold",
+                "Warm",
+                "Cool",
+                "Freezing"
+            ],
+            "answer": "Cold",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which of the following is a preposition?",
+            "choices": [
+                "Run",
+                "With",
+                "Fast",
+                "Big"
+            ],
+            "answer": "With",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which sentence is written correctly?",
+            "choices": [
+                "She is a good runner.",
+                "She are a good runner.",
+                "She am a good runner.",
+                "She be a good runner."
+            ],
+            "answer": "She is a good runner.",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "Which of the following is an adjective?",
+            "choices": [
+                "Run",
+                "Fast",
+                "Quickly",
+                "Big"
+            ],
+            "answer": "Big",
+            "category_name": "english_questions"
+        },
+        {
+            "question": "What is the SI unit of force?",
+            "choices": [
+                "Newton",
+                "Joule",
+                "Watt",
+                "Ampere"
+            ],
+            "answer": "Newton",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the formula for density?",
+            "choices": [
+                "d = m/v",
+                "m = dv",
+                "v = m/d",
+                "d = v/m"
+            ],
+            "answer": "d = m/v",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the speed of light in a vacuum?",
+            "choices": [
+                "3 x 10^8 m/s",
+                "2 x 10^8 m/s",
+                "4 x 10^8 m/s",
+                "5 x 10^8 m/s"
+            ],
+            "answer": "3 x 10^8 m/s",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the law of conservation of energy?",
+            "choices": [
+                "Energy cannot be created or destroyed, only transferred or converted.",
+                "Energy can be created or destroyed.",
+                "Energy can only be transferred, not converted.",
+                "None of the above."
+            ],
+            "answer": "Energy cannot be created or destroyed, only transferred or converted.",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the formula for work?",
+            "choices": [
+                "W = Fd",
+                "W = F/a",
+                "W = ma",
+                "W = mv^2"
+            ],
+            "answer": "W = Fd",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the unit of power?",
+            "choices": [
+                "Watt",
+                "Joule",
+                "Newton",
+                "Ampere"
+            ],
+            "answer": "Watt",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the law of conservation of momentum?",
+            "choices": [
+                "The total momentum of a closed system remains constant.",
+                "The total momentum of a closed system increases over time.",
+                "The total momentum of a closed system decreases over time.",
+                "None of the above."
+            ],
+            "answer": "The total momentum of a closed system remains constant.",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the formula for acceleration?",
+            "choices": [
+                "a = (v_f - v_i)/t",
+                "a = F/m",
+                "a = W/t",
+                "a = P/t"
+            ],
+            "answer": "a = (v_f - v_i)/t",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the law of universal gravitation?",
+            "choices": [
+                "Every object in the universe attracts every other object with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+                "Every object in the universe attracts every other object with a force that is directly proportional to their masses and inversely proportional to the distance between them.",
+                "Every object in the universe attracts every other object with a force that is inversely proportional to their masses and directly proportional to the distance between them.",
+                "None of the above."
+            ],
+            "answer": "Every object in the universe attracts every other object with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+            "category_name": "physics_questions"
+        },
+        {
+            "question": "What is the formula for potential energy?",
+            "choices": [
+                "PE = mgh",
+                "PE = 1/2mv^2",
+                "PE = Fd",
+                "PE = P/t"
+            ],
+            "answer": "PE = mgh",
+            "category_name": "physics_questions"
+        }
+    ]
+}
